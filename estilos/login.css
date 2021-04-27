@@ -1,0 +1,22 @@
+body{
+    margin-top:80px;
+    background: url(../imagenes/hero.png);
+}
+
+.account-block {
+    background-image: url(../imagenes/retrato.png);
+    background-size: cover;
+    height: 100%;
+  
+}
+
+.btn-theme {
+    background-color: #dfaeb4;
+    color: #fff;
+}
+
+.btn-theme:hover{
+   background-color: #3c295e;
+   color: #fff;
+  }
+  

@@ -1,0 +1,18 @@
+body {
+   /* background: url(../imagenes/hero.png); Tarda demasiado en cargar*/
+   background:cornsilk;
+}	
+
+.navbar {
+    box-shadow: 3px 3px 3px #e78591;
+    position:sticky;
+    position:-webkit-sticky;
+    background:linear-gradient(55deg,#84cdbf, #4b1062, #84cdbf);
+}
+.navbar-brand {
+    font-size:220%;
+}
+.navbar .nav-item .nav-link:hover {
+    color: #3c295e;
+  
+  }

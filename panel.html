@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panel administrador</title>
+    <!--Favicon-->
+    <link rel="shortcut icon" href="imagenes/favicon.ico" type="image/x-icon" />
+    <!--Bootstrap CSS-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+        integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <!--Enlace al CSS-->
+    <link rel="stylesheet" href="estilos/panel.css">
+    <!--Enlace a Fontawesome-->
+    <script src="https://kit.fontawesome.com/ddf51cda3b.js" crossorigin="anonymous"></script>
+</head>
+
+<body> 
+    <div id="top-nav" class="navbar navbar-inverse navbar-static-top">
+         <div class="container bootstrap snippets bootdey">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-toggle"></span>
+                </button>
+                <a class="navbar-brand" href="#" style="color:#e78591;">Dream & Drawer</a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" style="color:#e78591; font-size: 120%" role="button" data-toggle="dropdown" href="#" >
+                            <i class="fas fa-user" style="color:#e78591; font-size: 120%;"></i>Administrador<span class="caret"></span>
+                        </a>
+                        <ul id="g-account-menu" class="dropdown-menu" role="menu">
+                            <li><a href="#">Mi Perfil</a></li>
+                            <li><a href="#"><i class="fas fa-sign-out-alt"></i>Salir</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container bootstrap snippets bootdey">
+        <div class="row">
+            <div class="col-md-3">
+                <a href="#"><strong><i class="fas fa-globe"></i> Panel de control</strong></a>
+                <hr>
+                <ul class="nav nav-pills nav-stacked">
+                    <li><a href="#"><i class="fas fa-envelope-open-text"></i> Mensajes</a></li>
+                    <li><a href="#"><i class="far fa-clock"></i> Alarmas</a></li>
+                    <li><a href="#"><i class="fas fa-cog"></i> Configuración</a></li>
+                </ul>
+                <hr>
+            </div>
+            <div class="col-md-9">
+                <a href="#"><strong><i class="fas fa-chalkboard"></i> Tablero</strong></a>
+                <hr>
+                <div class="row">
+    
+                    <div class="col-md-7">
+                        <div class="well">Pedidos para enviar<span class="badge pull-right">2</span></div>
+
+                        <hr>
+
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4>Objetivo de este mes</h4>
+                            </div>
+                            <div class="panel-body">
+                                <small>Ventas</small>
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="42"
+                                        aria-valuemin="0" aria-valuemax="100" style="width: 42%">
+                                        <span class="sr-only">72% Complete</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-5">
+                        <ul class="nav nav-justified">  
+                        </ul>
+                        <div class="card-body">
+                            <img src="imagenes/Banner.jpg" d-block w-100" alt="imagen panel" class="img-fluid">
+                        </div>
+                        <hr>
+                        <div class="btn-group btn-group-justified">
+                            <a href="#" class="btn btn-info col-sm-3">
+                                <i class="fas fa-poll-h"></i><br>
+                                Facturas
+                            </a>
+                            <a href="#" class="btn btn-info col-sm-3">
+                                <i class="fab fa-google-drive"></i><br>
+                                Drive
+                            </a>
+                            <a href="#" class="btn btn-info col-sm-3">
+                                <i class="fas fa-calculator"></i><br>
+                                Cuentas
+                            </a>
+                            <a href="#" class="btn btn-info col-sm-3">
+                                <i class="fas fa-hands-helping"></i><br>
+                                Ayuda
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Bootstrap js-->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+            integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous">
+            </script>
+        <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js">
+        </script>
+        <script src="//code.jquery.com/jquery-1.11.1.min.js">
+        </script>
+        <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>

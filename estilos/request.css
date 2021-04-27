@@ -1,0 +1,33 @@
+body {
+    margin-top: 40px;
+    background-image: url(../imagenes/hero.png);
+  }
+.page-link {
+    background-color: #dfaeb4;
+    font-size: larger;
+    color: cornsilk;
+  }
+  
+ .disabled .page-link { /*no funciona y no sé por qué, imagino que a boostrap no le hace gracia*/
+      background-color: #3c295e;
+  }
+
+  .btn{
+    background-color: #dfaeb4;
+    border-color:#dfaeb4 ;
+  }
+  .btn:hover{
+    background-color: #3c295e;
+    border-color:#3c295e;
+  }
+  .btn:focus{
+    background-color: #3c295e;
+    border-color:#3c295e;
+  }
+
+  .nav-link{
+    color:#dfaeb4;
+  }
+  .nav-link:hover{
+    color:#3c295e;
+  }
